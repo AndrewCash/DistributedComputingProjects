@@ -1,0 +1,41 @@
+.color-primary-0 { color: #522B72 }	/* Main Primary color */
+.color-primary-1 { color: #9476AB }
+.color-primary-2 { color: #714C8F }
+.color-primary-3 { color: #381356 }
+.color-primary-4 { color: #210439 }
+
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #9476AB;
+    color: #210439;
+    width: 100vw;
+    height: 100vh;
+    font-size: 100%;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    width: 100%;
+    height: 70%;
+}
+
+h1 {
+    font-size: 7vw;
+}
+
+input {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2vw;
+    border-radius: 1vw;
+}
